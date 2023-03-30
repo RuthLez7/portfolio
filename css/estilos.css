@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+#contacto{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    background-image: url(images/fondo-contacto.png);
+    background-size: cover;
+}
+
+p{
+    color:#6a6a6a;
+}
+
+nav a{
+    color: #282828;
+}
+
+nav .active{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.btn-rojo{
+    background-color: red;
+    color: white;
+    border: 5px white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.btn-rojo:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid #6a6a6a;
+}
+
+#contacto h1{
+    color: red;
+    font-style: italic;
+}
+
+.inv p{
+    color: #6a6a6a;
+}
+
+.form-control{
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+
+textarea{
+    height: 150px;
+}
+
+form button{
+    border: none;
+    border-radius: 20px;
+    color: #370a6d ; 
+    background-color: white;
+    padding: 5px 30px;
+}
+form button:hover{
+    background-color: #370a6d;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#proyectos{
+    background-image: url(images/fondo-proyectos.png);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    background-size: cover;
+}
+#proyectos h1{
+    color: red;
+    font-style: italic;
+}
+
+#proyectos h2{
+    color:white;
+    font-size: 20px;
+    background: rgb(124,33,18);
+    background: linear-gradient(90deg, rgba(124,33,18,1) 0%, rgba(157,35,15,1) 46%);
+    padding: 7px 0px;
+    font-weight: 400;
+}
+#proyectos img{
+    height: 217px;
+}
+
+.abmproyectos p{
+    font-size: 14px;
+    color: #6a6a6a;
+    height: 120px;
+}
+
+.project{
+border: 1px solid #eee;
+border-radius: 10px;
+
+}
+
+.link-rojo{
+    color: red;
+    padding: 5px 10px;
+    font-weight: 300;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#redes a{
+    color: red;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+.fa-whatsapp{
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+
+}
+footer p{
+    color:white;
+}
+
+.contact p{
+    color:red;
+    font-weight: 200;
+}
+.contact a{
+    color:red;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+#inicio{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    background-image: url(images/fondo-contacto.png);
+    background-size: cover;
+}
+
+.cohete{
+    height: 600px;
+    width: 300px;
+}
+
+.bienvenida p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
