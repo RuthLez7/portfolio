@@ -35,13 +35,30 @@ nav .active{
     text-decoration: none;
     font-weight: 300;
 }
+.btn-bco{
+    background-color: white;
+    color: #370a6d;
+    border: 5px white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
 .btn-rojo:hover{
     background-color: white;
     color: red;
     border: 1px solid #6a6a6a;
 }
 
-#contacto h1{
+.btn-bco:hover{
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid #370a6d;
+}
+
+h1{
     color: red;
     font-style: italic;
 }
@@ -72,17 +89,50 @@ form button:hover{
     cursor: pointer;
 }
 
+.contact p{
+    color:white;
+    font-weight: 200;
+}
+.contact a{
+    color:red;
+    font-weight: 200;
+    text-decoration: underline;
+    
+}
+#redes a{
+    color: red;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+}
 
+#contacto footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.fa-whatsapp{
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+
+}
 
 #proyectos{
     background-image: url(images/fondo-proyectos.png);
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
     background-size: cover;
-}
-#proyectos h1{
-    color: red;
-    font-style: italic;
 }
 
 #proyectos h2{
@@ -115,44 +165,10 @@ border-radius: 10px;
     font-weight: 300;
     
 }
-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-}
-#redes a{
-    color: red;
-    border-radius: 30px;
-    background-color: white;
-    padding: 10px 15px;
-    font-size: 25px;
-}
-.fa-whatsapp{
-    background-color: #370a6d;
-    color: white;
-    width: 60px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 30px;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    right: 80px;
-    position: fixed;
-    bottom: 0px;
 
-}
-footer p{
-    color:white;
-}
 
-.contact p{
+#proyectos footer p{
     color:red;
-    font-weight: 200;
-}
-.contact a{
-    color:red;
-    font-weight: 200;
-    text-decoration: underline;
 }
 
 #inicio{
@@ -162,13 +178,26 @@ footer p{
     background-size: cover;
 }
 
-.cohete{
-    height: 600px;
-    width: 300px;
+.cohete img{
+    height: 400px;
 }
+.cohete img:hover{
+    height: 420px;
+}
+.cohete{
+    height: 450px;
+}
+
 
 .bienvenida p{
     color: white;
     border: 1px solid white;
     border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+#sobre-mi{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    background-size: cover;
 }
