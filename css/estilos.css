@@ -97,14 +97,6 @@ form button:hover{
     color:red;
     font-weight: 200;
     text-decoration: underline;
-    
-}
-#redes a{
-    color: red;
-    border-radius: 30px;
-    background-color: white;
-    padding: 10px 15px;
-    font-size: 25px;
 }
 
 #contacto footer a{
@@ -112,7 +104,14 @@ form button:hover{
     color: white;
     font-size: 15px;
 }
+#redes .fa-linkedin-in, #redes .fa-github{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 12px;
 
+}
 .fa-whatsapp{
     background-color: #370a6d;
     color: white;
@@ -133,6 +132,10 @@ form button:hover{
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
     background-size: cover;
+}
+#proyectos h1{
+    color: red;
+    font-style: italic;
 }
 
 #proyectos h2{
@@ -155,18 +158,15 @@ form button:hover{
 
 .project{
 border: 1px solid #eee;
-border-radius: 10px;
+border-radius: 20px;
 
 }
-
 .link-rojo{
     color: red;
     padding: 5px 10px;
     font-weight: 300;
     
 }
-
-
 #proyectos footer p{
     color:red;
 }
@@ -187,8 +187,6 @@ border-radius: 10px;
 .cohete{
     height: 450px;
 }
-
-
 .bienvenida p{
     color: white;
     border: 1px solid white;
@@ -196,8 +194,23 @@ border-radius: 10px;
     font-weight: 600;
     font-size: 17px;
 }
+#inicio footer p{
+    color:white;
+}
+#inicio footer a{
+    color:white;
+    text-decoration: none;
+}
 #sobre-mi{
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
     background-size: cover;
 }
+#sobre-mi h1{
+    color: red;
+    font-style: italic;
+}
+.yo img{
+    height: 250px;
+}
+
