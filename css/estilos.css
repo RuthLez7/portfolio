@@ -141,8 +141,8 @@ form button:hover{
 #proyectos h2{
     color:white;
     font-size: 20px;
-    background: rgb(124,33,18);
-    background: linear-gradient(90deg, rgba(124,33,18,1) 0%, rgba(157,35,15,1) 46%);
+    background: rgb(142,48,32);
+    background: linear-gradient(90deg, rgba(142,48,32,1) 0%, rgba(187,39,15,1) 30%);
     padding: 7px 0px;
     font-weight: 400;
 }
@@ -204,13 +204,51 @@ border-radius: 20px;
 #sobre-mi{
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
-    background-size: cover;
 }
 #sobre-mi h1{
     color: red;
     font-style: italic;
 }
-.yo img{
+#intro img{
     height: 250px;
+    border-radius: 50%;
 }
 
+#stack{
+    background: rgb(142,48,32);
+    background: linear-gradient(90deg, rgba(142,48,32,1) 0%, rgba(187,39,15,1) 30%);
+}
+h2{
+    font-size: 25px;
+    color:#282828;
+}
+#stack h2{
+    font-size: 25px;
+    color:white;
+}
+
+h3{
+    font-size: 18px;
+    color:#6a6a6a
+}
+#xp h3{
+    font: 20px;
+    color: #282828;
+}
+#xp h4{
+    font-size: 16px;
+}
+#xp h5{
+    font-size: 14px;
+color: #eee;}
+.tec{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.icon{
+    font-size: 100px; 
+    color: rgb(187,48,32);
+    color: linear-gradient(90deg, rgba(142,48,32,1) 0%, rgba(187,39,15,1) 30%);
+    
+}
