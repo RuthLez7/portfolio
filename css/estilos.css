@@ -5,10 +5,10 @@
 html {
     scroll-behavior: smooth;
 }
-#contacto{
+#contacto, #inicio{
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
-    background-image: url(images/fondo-contacto.png);
+    background-image: url(../images/fondo-contacto.png);
     background-size: cover;
 }
 
@@ -128,7 +128,7 @@ form button:hover{
 }
 
 #proyectos{
-    background-image: url(images/fondo-proyectos.png);
+    background-image: url(../images/fondo-proyectos.png);
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
     background-size: cover;
@@ -170,14 +170,6 @@ border-radius: 20px;
 #proyectos footer p{
     color:red;
 }
-
-#inicio{
-    font-family: 'Roboto Mono', monospace;
-    margin: 0px;
-    background-image: url(images/fondo-contacto.png);
-    background-size: cover;
-}
-
 .cohete img{
     height: 400px;
 }
@@ -210,7 +202,7 @@ border-radius: 20px;
     font-style: italic;
 }
 #intro img{
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -231,16 +223,16 @@ h3{
     font-size: 18px;
     color:#6a6a6a
 }
-#xp h3{
+#xp h3, #estudios h3, #idiom h3{
     font: 20px;
     color: #282828;
 }
-#xp h4{
+#xp h4, #estudios h4, #idiom h4{
     font-size: 16px;
 }
-#xp h5{
+#xp h5, #estudios h5, #idiom h5{
     font-size: 14px;
-color: #eee;}
+    color: #aaa;}
 .tec{
     background-color: white;
     border-radius: 20px;
@@ -250,5 +242,29 @@ color: #eee;}
     font-size: 100px; 
     color: rgb(187,48,32);
     color: linear-gradient(90deg, rgba(142,48,32,1) 0%, rgba(187,39,15,1) 30%);
-    
+}
+#xp img{
+    height: 100px;
+}
+
+#estudios img{
+    height: 60px;
+}
+#estudios a{
+    color: #370a6d;
+}
+#cursos img{
+    height: 100px;
+}
+#cursos a{
+    color: #370a6d;
+}
+.logo{
+    background-color: #370a6d;
+    color: white;
+    font-size: 100px;
+    border-radius: 10px;
+}
+#idiom{
+    background-color: #eee;
 }
