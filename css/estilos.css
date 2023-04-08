@@ -223,14 +223,14 @@ h3{
     font-size: 18px;
     color:#6a6a6a
 }
-#xp h3, #estudios h3, #idiom h3{
+#xp h3, #estudios h3, #cursos h3, #idiom h3{
     font: 20px;
     color: #282828;
 }
-#xp h4, #estudios h4, #idiom h4{
+#xp h4, #estudios h4, #cursos h4, #idiom h4{
     font-size: 16px;
 }
-#xp h5, #estudios h5, #idiom h5{
+#xp h5, #estudios h5, #cursos h5, #idiom h5{
     font-size: 14px;
     color: #aaa;}
 .tec{
@@ -267,4 +267,11 @@ h3{
 }
 #idiom{
     background-color: #eee;
+}
+#idiom a{
+    color:#370a6d
+}
+.tarjeta{
+    background-color: white;
+    border-radius: 10px;
 }
